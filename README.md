@@ -30,7 +30,7 @@ pip install pandas numpy reportlab
 Clone the software repository from GitHub:
 
 ```bash
-git clone REPOSITORY_URL
+git clone https://github.com/fffamk/mvplab
 cd MVP
 ```
 
@@ -49,15 +49,18 @@ kraken2-build --download-library <library_name> --db <database_name>
 kraken2-build --build --db <database_name>
 ```
 
-### Download Leishmania Database for Demo
-To run the demo, download the pre-built Leishmania database from Google Drive link.
+### Download Leishmania Database and Dorado for Demo
+To run the demo, download the pre-built Leishmania database from [Google Drive link](https://drive.google.com/file/d/1QEoDjAZ-45ssQ4YsjEjFNpHT_01Ks9qN/view?usp=sharing).
+
 then decompress with (uncompressed size ~45 Gb):
 ```bash
-tar -xJf leshmania_db.tar.xz -C dependancies/
+tar -xJf leshmania_db.tar.gz -C dependancies/
 ```
-
-### Download Dorado
-Download the latest verison of Dorado and place it  dependancies/basecalling
+Download [Dorado](https://drive.google.com/file/d/1HSmPuv_AD-K0Js_VkYF2ihc2a-ExFois/view?usp=sharing)
+then decompress with (uncompressed size ~6 Gb):
+```bash
+tar -xJf dorado.tar.gz -C dependancies/
+```
 
 ## Software Workflow
 1. Basecalling
